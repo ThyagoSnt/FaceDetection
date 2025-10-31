@@ -1,0 +1,7 @@
+opencv-python
+numpy
+insightface
+onnxruntime-gpu
+streamlit
+modal
+python-dotenv

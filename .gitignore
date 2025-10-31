@@ -1,0 +1,6 @@
+__pycache__/
+tests/
+rstp_data/
+models/
+
+.env
