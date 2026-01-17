@@ -1,0 +1,16 @@
+services:
+  local-camera-app:
+    build: .
+    container_name: local-camera-app
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/data
+      - ./backend:/backend
+      - ./core:/core
+      - ./ui:/ui
+      - ./models:/models
+    gpus: all
+    restart: unless-stopped
