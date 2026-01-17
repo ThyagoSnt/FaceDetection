@@ -1,7 +1,10 @@
-opencv-python
-numpy
-insightface
-onnxruntime-gpu
-streamlit
-modal
-python-dotenv
+fastapi[standard]==0.117.1
+insightface==0.7.3
+onnxruntime-gpu==1.23.0
+opencv-python-headless==4.12.0.88
+numpy==2.2.6
+scikit-learn==1.7.1
+pytz==2025.2
+requests==2.32.5
+python-dotenv==1.1.1
+faiss-cpu==1.13.2

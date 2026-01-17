@@ -1,2 +1,0 @@
-modal deploy modal_face_detector.py
-modal deploy modal_face_utilities.py
